@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<link href="./styles/index.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+
+<body>
+<main>
+    <div id='form'>
+     
+       <label for="nome_contato" >Nome do contato</label> 
+       <input name="nome_contato" value=''/>
+       <label for="email_contato">Email do contato</label>
+       <input name="email_contato" value=""/>
+       <label for="numero_contato">Numero do contato</label> 
+       <input name="numero_contato" value=>
+       <button id="enviar" type="submit" onclick='adicionarContato()'>enviar</button>
+     
+    </div>
+
+    <div id="lista">
+        <li class="contato">
+          <p> Nome: Alysson de Jesus </p>
+           <p> E-mail: alysso@gmail.com</p><button id="delete" onclick="deletaContato()">X</button> 
+            <p>Numero: (74) 9121-9878 </p>
+
+        </li>
+    </div>
+</main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+
+body{ 
+
+    background-color: #f0f0f5;
+}
+main{
+    display:flex;
+    background-color: white;
+    margin:100px auto;
+    width: 600px;
+    height: 300px;
+    border-radius: 8px;
+
+}
+
+#form {
+    display:flex;
+    flex-direction: column;
+    border-right: #f0f0f5 solid 2px;
+    padding:10px;
+
+}
+#form input{
+    margin-top: 5px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+#form label{
+
+    margin-top:10px;
+
+}
+#form  #enviar{
+ 
+    margin-top: 20px;
+}
+
+#lista{
+flex: 1;
+padding: 10px;
+overflow: auto;
+
+
+}
+
+
+#lista li{
+background-color: aliceblue;
+list-style: none;
+}
+#lista li p{
+
+    margin:5px;
+    
+}
+button #delete{
+
+    position:absolute;
+}
